@@ -12,7 +12,7 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.Prototype">
+        android:theme="@style/Theme.ImageProcessor">
         <activity android:name=".imageEditing.ImageEditingActivity" />
         <activity android:name=".ImageSelectionActivity" />
         <activity android:name=".MainActivity"
