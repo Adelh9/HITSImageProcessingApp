@@ -15,20 +15,43 @@
         android:layout_marginTop="32dp"
         android:layout_marginEnd="24dp"
         android:layout_marginBottom="8dp"
-        android:text="Edit Activity"
+        android:text="@string/image_editing_activity_selection"
+        app:layout_constraintBottom_toTopOf="@+id/selectSplineBtn"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/OptionChoiceTextView" />
 
+    <Button
+        android:id="@+id/selectSplineBtn"
+        android:layout_width="0dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="8dp"
+        android:text="@string/splines_activity_selection"
+        app:layout_constraintBottom_toTopOf="@+id/selectCubeBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/selectImageEditBtn" />
 
-
-
+    <Button
+        android:id="@+id/selectCubeBtn"
+        android:layout_width="0dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="24dp"
+        android:text="@string/cube_activity_selection"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/selectSplineBtn" />
 
     <TextView
         android:id="@+id/OptionChoiceTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Select Activity"
+        android:text="@string/activity_selection"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
